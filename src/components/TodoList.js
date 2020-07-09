@@ -2,11 +2,12 @@ import React from 'react'
 import Todo from './Todo'
 
 const TodoList =(props)=> {
-console.log('todolist', props.todos)
     return(
         <div>
-            {props.todos.map(data=>
-                <Todo todos={data}/>)}
+            {props.todos.map(data=>{
+            // console.log(data)
+            return(
+                <Todo todos={data} checked={props.checked}/>)})}
             
         </div>
     )

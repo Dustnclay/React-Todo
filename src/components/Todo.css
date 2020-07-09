@@ -1,0 +1,11 @@
+.checked{
+    font:line-through;
+    text-decoration: line-through;
+    background-color: azure;
+}
+
+.open{
+    font:bold;
+    background-color: bisque;
+}
+
